@@ -1,0 +1,42 @@
+body {
+  background-color: rgba(255, 252, 252, 0.94);
+}
+.novin {
+  color: black;
+  text-align: right;
+  font-size: 12px;
+}
+.novin:hover{
+  font-size: 13px;
+  color: #f10a59;
+  cursor: pointer;
+  transition:all 0.3s;
+}
+
+.novin1 {
+  width: 130px;
+
+}
+.novin2:hover {
+  background-color: gold;
+
+}
+.scrollbar {
+  background-color: #F5F5F5;
+  float: left;
+  height: 320px;
+  /*margin-bottom: 25px;*/
+  /*margin-left: 22px;*/
+  /*margin-top: 40px;*/
+  /*width: 65px;*/
+  overflow-y: scroll;
+
+}
+::-webkit-scrollbar-thumb {
+background-color: red;
+}
+
+.force-overflow {
+  min-height: 450px;
+}
+
